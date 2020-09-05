@@ -3,6 +3,7 @@ README.rst
 environment.yml
 setup.cfg
 setup.py
+bin/install.sh
 sync_project/__init__.py
 sync_project/_version.py
 sync_project.egg-info/PKG-INFO
