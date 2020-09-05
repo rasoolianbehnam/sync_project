@@ -1,4 +1,4 @@
-name: sample_project
+name: sync_project
 channels: !!python/tuple
   - anaconda
   - nodefaults
@@ -13,9 +13,10 @@ dependencies:
   - scikit-learn
   - opencv
   - seaborn
-  - tensorfow>=2.1
+  - tensorflow>=2.1
 
   - pip:
+    - sh
     - pathos
     - joblib
     - statsmodels

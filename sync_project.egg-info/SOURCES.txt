@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+environment.yml
+setup.cfg
+setup.py
+sync_project/__init__.py
+sync_project/_version.py
+sync_project.egg-info/PKG-INFO
+sync_project.egg-info/SOURCES.txt
+sync_project.egg-info/dependency_links.txt
+sync_project.egg-info/not-zip-safe
+sync_project.egg-info/top_level.txt

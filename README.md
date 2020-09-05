@@ -1,1 +1,1 @@
-# sample_project
+# sync_project

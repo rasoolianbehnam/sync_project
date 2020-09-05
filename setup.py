@@ -4,14 +4,14 @@ import setuptools
 import glob
 
 
-with open('sample_project/_version.py') as f:
+with open('sync_project/_version.py') as f:
     exec(f.read())
 
 with open('README.rst') as f:
     readme = f.read()
 
 setuptools.setup(
-    name='sample_project',
+    name='sync_project',
 
     # Read in from above.
     version=__version__,
