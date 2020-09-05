@@ -1,0 +1,22 @@
+name: sample_project
+channels: !!python/tuple
+  - anaconda
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pandas
+  - ipykernel
+  - dask
+  - distributed
+  - scikit-learn
+  - opencv
+  - seaborn
+  - tensorfow>=2.1
+
+  - pip:
+    - pathos
+    - joblib
+    - statsmodels
+    - "--editable=."
